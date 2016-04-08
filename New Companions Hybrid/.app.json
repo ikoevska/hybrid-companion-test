@@ -3,17 +3,35 @@
   "views": [
     {
       "type": "kendo-ui-mobile:view",
-      "name": "home",
-      "components": [],
-      "title": "Home View",
+      "name": "formView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "prettyText",
+              "title": "Long text",
+              "inputType": "longText",
+              "value": "You are amazing!"
+            }
+          ],
+          "name": "formViewModel",
+          "submitButton": "Yes",
+          "cancelButton": "No"
+        }
+      ],
+      "title": "Form",
       "addToNavigation": true,
-      "icon": "home"
+      "icon": "featured"
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
-  "view": "home",
-  "transition": "slide",
-  "skin": "flat"
+  "navigation": "drawer",
+  "view": "formView",
+  "skin": "nova",
+  "skinActive": "#ff4350",
+  "skinText": "#32364c",
+  "skinSecondary": "#888e90"
 }
