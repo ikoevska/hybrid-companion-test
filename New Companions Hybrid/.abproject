@@ -1,0 +1,45 @@
+{
+  "ProjectName": "New Companions Hybrid",
+  "ProjectGuid": "d6bbc2a3-8927-4826-8b85-e4e3b8547feb",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.NewCompanionsHybrid",
+  "DisplayName": "New Companions Hybrid",
+  "Author": "",
+  "Description": "New Companions Hybrid",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{ead602fd-e676-4ade-be32-a90d58ae86b5}",
+  "WP8ProductID": "{80e41a1d-6ba8-475b-ae38-1aee0fb4884a}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.NewCompanionsHybrid",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
